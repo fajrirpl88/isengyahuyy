@@ -13,7 +13,7 @@
         }
 
         body {
-            display: flex;
+            layar: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
@@ -42,7 +42,7 @@
         }
 
         .buttons {
-            display: grid;
+            layar: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 10px;
         }
@@ -91,7 +91,7 @@
 <body>
 
     <div class="calculator">
-        <input type="text" id="display" readonly placeholder="0">
+        <input type="text" id="layar" readonly placeholder="0">
         <div class="buttons">
             <button class="clear" onclick="clearDisplay()">C</button>
             <button onclick="appendValue('/')" class="operator">÷</button>
